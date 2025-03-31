@@ -6,13 +6,13 @@ A beautiful **React + Vite** application that lets users change the background c
 
 
 ## Features
--**Interactive color buttons** that change the background
--**Glassmorphism effect** (frosted glass panel)
--**Smart text contrast** - auto-switches between white/black text for readability
--**Hover animations** on buttons
--**Responsive design** that works on all screen sizes
--**Reset functionality** to return to default white background
--**Smooth color transitions** with CSS animations
+- **Interactive color buttons** that change the background
+- **Glassmorphism effect** (frosted glass panel)
+- **Smart text contrast** - auto-switches between white/black text for readability
+- **Hover animations** on buttons
+- **Responsive design** that works on all screen sizes
+- **Reset functionality** to return to default white background
+- **Smooth color transitions** with CSS animations
 
 ## Installation and Setup
 ### Prerequisites
