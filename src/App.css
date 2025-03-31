@@ -1,0 +1,51 @@
+.app-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: background-color 0.3s ease;
+  }
+  
+  h1 {
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 30px;
+  }
+  
+  .color-panel {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 500px;
+    gap: 5px;
+  }
+  
+  .color-button, .reset-button {
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+    flex: 1 0;
+    min-width: 100px;
+  }
+  
+  .color-button:hover, .reset-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .reset-button {
+    background: white;
+    color: black;
+    margin-top: 15px;
+    flex-basis: 100%;
+  }
